@@ -9,3 +9,7 @@ ASP-Emulator(mvsnjemu)のコピー元と思われるnjemuのリポジトリは�
 https://github.com/phoe-nix/NJEMU
 
 なんか気が付いたことがあったらIssuesに書いてね
+
+ASP-Emulatorのzip
+zlib の変更はPSP_Hの定義変更のみ
+zip/ の変更はsceIO系のファイルをstdioのfopen系に変更したのみ
