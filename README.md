@@ -33,3 +33,10 @@ NJEMU/src/common/ のみに存在: coin.h
 ファイル NJEMU/src/common/state.c と source/ASP-Emulator/src/common/state.c は異なります  
 ファイル NJEMU/src/common/state.h と source/ASP-Emulator/src/common/state.h は異なります  
 snk $
+
+include/の変更  
+osd_cpuのtypedef変更のみ  
+
+sound/の変更  
+MVS以外の#if削除、PSP_SLIM以外の場合ym2610の計算モジュールの#ifdefの切り替えなど
+
