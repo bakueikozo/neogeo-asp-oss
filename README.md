@@ -14,6 +14,10 @@ ASP-Emulatorのzip
 zlib の変更はPSP_Hの定義変更のみ  
 zip/ の変更はsceIO系のファイルをstdioのfopen系に変更したのみ  
 
+common/の変更
+njemuからmvs以外のエミュレーションを外したのでその#defineの変更、adhoc機能の削除に伴う#defineの削除  
+ぐらい  
+
 snk $ diff NJEMU/src/common/ source/ASP-Emulator/src/common/ -q -s  
 NJEMU/src/common/ のみに存在: adhoc.c  
 NJEMU/src/common/ のみに存在: adhoc.h  
